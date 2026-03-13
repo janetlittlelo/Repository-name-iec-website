@@ -173,10 +173,12 @@ button{font-family:inherit;cursor:pointer}
 /* Brand text — refined typography */
 .logo-intro-text{
     position:absolute;
-    bottom:22%;left:50%;transform:translateX(-50%);
+    top:50%;left:50%;
+    transform:translateX(-50%) translateY(110px);
     text-align:center;
     opacity:0;
     z-index:10;
+    white-space:nowrap;
 }
 .logo-intro-text .intro-brand{
     font-family:'Georgia','Times New Roman',serif;
@@ -187,6 +189,7 @@ button{font-family:inherit;cursor:pointer}
     text-shadow:0 0 40px rgba(61,204,110,.2);
 }
 .logo-intro-text .intro-tagline{
+    font-family:'Georgia','Times New Roman',serif;
     font-size:12px;color:rgba(255,255,255,.4);
     letter-spacing:8px;text-transform:uppercase;
     font-weight:300;
@@ -208,8 +211,8 @@ button{font-family:inherit;cursor:pointer}
     100%{transform:translate(-50%,-50%) scale(1);opacity:0}
 }
 @keyframes textFadeUp{
-    0%{opacity:0;transform:translateX(-50%) translateY(20px)}
-    100%{opacity:1;transform:translateX(-50%) translateY(0)}
+    0%{opacity:0;transform:translateX(-50%) translateY(130px)}
+    100%{opacity:1;transform:translateX(-50%) translateY(110px)}
 }
 
 /* Animation classes applied by JS */
