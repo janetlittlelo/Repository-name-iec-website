@@ -196,6 +196,9 @@ button{font-family:inherit;cursor:pointer}
     letter-spacing:0;
     padding-left:0;
 }
+.logo-intro-text .intro-brand .intro-c{
+    margin-left:-10px;
+}
 .logo-intro-text .intro-tagline{
     font-family:'Inter','Arial','Helvetica Neue',sans-serif;
     font-size:11px;color:rgba(255,255,255,.5);
