@@ -185,17 +185,23 @@ button{font-family:inherit;cursor:pointer}
 .logo-intro-text .intro-brand{
     font-family:'Inter','Arial Black','Helvetica Neue',sans-serif;
     font-size:56px;font-weight:800;
-    color:#fff;letter-spacing:28px;
+    color:#fff;
     text-transform:uppercase;
     margin-bottom:16px;
-    padding-left:28px;
     text-shadow:0 0 40px rgba(61,204,110,.2);
+    display:flex;
+    gap:28px;
+    justify-content:center;
+    align-items:center;
+    letter-spacing:0;
+    padding-left:0;
 }
 .logo-intro-text .intro-tagline{
     font-family:'Inter','Arial','Helvetica Neue',sans-serif;
-    font-size:11px;color:rgba(255,255,255,.12);
+    font-size:11px;color:rgba(255,255,255,.5);
     letter-spacing:8px;text-transform:uppercase;
     font-weight:400;
+    text-align:center;
 }
 
 /* Animation keyframes — smoother easing */
